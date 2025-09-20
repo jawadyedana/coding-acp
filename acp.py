@@ -1,0 +1,5 @@
+for i in range(n): #O(n)
+    print(i)
+for i in range(n): #O(n)
+    for j in range(n): # O(n^2)
+        print(i,j)
